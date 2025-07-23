@@ -1,0 +1,6 @@
+# Supported Models for RL-Swarm:
+1. Gensyn/Qwen2.5-0.5B-Instruct {best for CPU }
+2. Qwen/Qwen3-0.6B {best for 12gb-16gb GPU vram }
+3. nvidia/AceInstruct-1.5B { best for 3090 and 4090 }
+4. dnotitia/Smoothie-Qwen3-1.7B {a100 or h200 gpu }
+5. Gensyn/Qwen2.5-1.5B-Instruct { 4090 ideal choice }
