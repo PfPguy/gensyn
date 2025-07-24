@@ -1,5 +1,12 @@
 # Gensyn RL-Swarm Basic Setup
 
+
+## Platform you can use for GPU 
+
+**VAST** = https://cloud.vast.ai/?ref_id=234200
+
+**QUICKPOD** = https://console.quickpod.io?affiliate=e683292b-f79c-4839-aa94-3feaabc35ee0
+
 ---
 
 ## **STEP 1 (For BOTH CPU & GPU):**
@@ -74,12 +81,15 @@ screen -R <digit>.gensyn
 
 ## ✅ Supported Models & Recommendations
 
-Gensyn/Qwen2.5-0.5B-Instruct (best for CPU)
+You can just click ENTER if you want to systme will auto pick the best Model for you 
 
-Qwen/Qwen3-0.6B (best for 12GB–16GB VRAM GPU)
 
-nvidia/AceInstruct-1.5B (ideal for A100 and H200)
+``` Gensyn/Qwen2.5-0.5B-Instruct ``` → Best for CPU or 12–16GB VRAM GPUs
 
-dnotitia/Smoothie-Qwen3-1.7B (best for RTX 4090 or GPUs with 24GB+ VRAM)
+```Qwen/Qwen3-0.6B ```→ Best for RTX 3090 & 4090
 
-Gensyn/Qwen2.5-1.5B-Instruct (best for RTX 3090 and 4090)
+```nvidia/AceInstruct-1.5B``` → Ideal for A100 & H200
+
+```dnotitia/Smoothie-Qwen3-1.7B ```→ Needs 32GB VRAM GPU or higher
+
+```Gensyn/Qwen2.5-1.5B-Instruct``` → Works on 4090 (with tweaks) but 32GB VRAM recommended
